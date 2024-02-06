@@ -52,5 +52,5 @@ client.on('ready', async () => {
   }, 1000); // Update every second
 });
 
-const mySecret = process.env['c238739d-1007-4d7b-8ac1-08fe0e735d48'];
+const mySecret = process.env['958424044527579156'];
 client.login(mySecret);
