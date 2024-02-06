@@ -33,12 +33,12 @@ client.on('ready', async () => {
  .setAssetsLargeImage('https://media.discordapp.net/attachments/1187549401971970140/1204536227970289794/mee.gif') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('petals') //Text when you hover the Large image
     .setAssetsSmallImage('https://cdn.discordapp.com/emojis/1188625102305235054.gif') //You can put links in tenor or discord and etc.
-    .setAssetsSmallText('') //Text when you hover the Small image
-    .addButton('Watch', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ')
-    .addButton('Donate', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+    .setAssetsSmallText('hole') //Text when you hover the Small image
+    .addButton('ωip', 'soon')
+    .addButton('ωip', 'soon');
 
   client.user.setActivity(r);
-  client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
+  client.user.setPresence({ status: "online" }); //dnd, online, idle, offline
 
   let prevTime = null;
   setInterval(() => {
