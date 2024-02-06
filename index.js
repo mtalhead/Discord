@@ -27,8 +27,8 @@ client.on('ready', async () => {
     .setType('STREAMING')
     .setURL('https://www.youtube.com/watch?v=XbKLO9TbRRQ') //Must be a youtube video link 
     .setState('Recording')
-    .setName('')
-    .setDetails(`Valorant [${formatTime()}]`)
+    .setName('buu')
+    .setDetails(`lalala [${formatTime()}]`)
     .setStartTimestamp(Date.now())
  .setAssetsLargeImage('https://media.discordapp.net/attachments/1187549401971970140/1204536227970289794/mee.gif') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('♡') //Text when you hover the Large image
