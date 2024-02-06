@@ -34,8 +34,8 @@ client.on('ready', async () => {
     .setAssetsLargeText('petals') //Text when you hover the Large image
     .setAssetsSmallImage('https://cdn.discordapp.com/emojis/1188625102305235054.gif') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('hole') //Text when you hover the Small image
-    .addButton('ωip', 'soon')
-    .addButton('ωip', 'soon');
+    .addButton('ωip', 'https://rentry.co/silentwatcher')
+    .addButton('ωip', 'https://rentry.co/silentwatcher');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "online" }); //dnd, online, idle, offline
