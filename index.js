@@ -18,10 +18,10 @@ client.on('ready', async () => {
     .setURL('https://www.youtube.com/watch?v=XbKLO9TbRRQ') //Must be a youtube video link 
     .setState('୧   ྀི͝  ︶ ‧ ‧ ︶ ͝   ྀི')
     .setName('buu')
-    .setDetails(`lalala`)
+    .setDetails(`ꪮɞ ꒰ dreaming`)
     .setStartTimestamp(Date.now())
  .setAssetsLargeImage('https://media.discordapp.net/attachments/1187549401971970140/1204580040487211048/me.gif?ex=65d53f95&is=65c2ca95&hm=8083a0ec43b23f079d2516022b6c4377974c0519accdf5cc64ca9499039304f6&=') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText('petals') //Text when you hover the Large image
+    .setAssetsLargeText('sρirits at rest . .') //Text when you hover the Large image
     .setAssetsSmallImage('https://cdn.discordapp.com/emojis/1188625102305235054.gif') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('hole') //Text when you hover the Small image
     .addButton('ωip', 'https://rentry.co/silentwatcher')
