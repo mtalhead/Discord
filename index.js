@@ -7,8 +7,6 @@ const client = new Discord.Client({
 const keepAlive = require('./server.js');
 keepAlive();
 
-  return new Intl.DateTimeFormat('en-US', options).format(date);
-}
 
 client.on('ready', async () => {
   console.clear();
