@@ -7,14 +7,6 @@ const client = new Discord.Client({
 const keepAlive = require('./server.js');
 keepAlive();
 
-function formatTime() { //Credits to himika#0001 and never#0001
-  const date = new Date();
-  const options = {
-    timeZone: 'America/New_York', //https://www.zeitverschiebung.net/en/ and find your city and enter here
-    hour12: true,
-    hour: 'numeric',
-    minute: 'numeric'
-  };
   return new Intl.DateTimeFormat('en-US', options).format(date);
 }
 
@@ -26,9 +18,9 @@ client.on('ready', async () => {
     .setApplicationId('1204557066602156082')
     .setType('STREAMING')
     .setURL('https://www.youtube.com/watch?v=XbKLO9TbRRQ') //Must be a youtube video link 
-    .setState('Recording')
+    .setState('eeping')
     .setName('buu')
-    .setDetails(`lalala [${formatTime()}]`)
+    .setDetails(`lalala`)
     .setStartTimestamp(Date.now())
  .setAssetsLargeImage('https://media.discordapp.net/attachments/1187549401971970140/1204580040487211048/me.gif?ex=65d53f95&is=65c2ca95&hm=8083a0ec43b23f079d2516022b6c4377974c0519accdf5cc64ca9499039304f6&=') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('petals') //Text when you hover the Large image
